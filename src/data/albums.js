@@ -25,5 +25,3 @@ export default [{
       { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
     ]
 }];
-
-,

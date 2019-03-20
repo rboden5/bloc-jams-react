@@ -32,6 +32,16 @@
              <col id="song-duration-column" />
            </colgroup>
            <tbody>
+           {
+             this.state.album.songs.map( (songInfo, index) =>
+                   <tr>
+                     <td id="index">{index+1}</td>
+                     <td id="title">{songInfo.title}</td>
+                     <td id="duration">{songInfo.duration}</td>
+                     <td id="audioSrc">{songInfo.audioSrc}</td>
+                   </tr>
+               )
+             }
            </tbody>
          </table>
        </section>

@@ -11,8 +11,8 @@ class App extends Component {
       <div className="App">
       <header>
          <nav>
-          <Link to='/'>Landing</Link>
-          <Link to='/library'>Library</Link>
+          <Link to='/' class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Landing</Link>
+          <Link to='/library' class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Library</Link>
          </nav>
          <h1>Bloc Jams</h1>
        </header>
